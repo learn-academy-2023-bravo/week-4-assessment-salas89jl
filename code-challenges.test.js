@@ -39,7 +39,7 @@ const colors2 = ["chartreuse", "indigo", "periwinkle", "ochre", "aquamarine", "s
 // create a funciton called arrayShuffle
 // Input: an array of strings
 // Output: an array of strings that contains the string values from the input arrays minus the value of the first index.
-//  
+// using the code snippet from Fisher-Yates shuffle algorithm 
 function arrayShufle(arr) {
   let newArray = arr.shift()
   // Start from the last element and swap one by one. We don't need to run forthe first element that's why i > 0

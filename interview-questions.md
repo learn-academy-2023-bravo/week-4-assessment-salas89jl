@@ -41,12 +41,9 @@ Researched answer: Blocks in Ruby are pieces of code that are passed as an argum
 
 5. How do you extract a value in a Ruby hash?
 
-
 Your answer: Ruby Hashes are containers that developers can not only store information/data but can organize that information/data using key-value pairs like this; "key => value." Developers can access each value using its associated key. For instance: 
 
-
 Researched answer: A Ruby Hash is similar to an array, but instead of using numbers to identify its index, hashes use the key name. Ruby hashes use ({}) to contain its key-value pairs and use the rocket symbol => to separate each key and its values, and commas separate each key-value pair within the hash. To access a key's value, bracket notation is required. 
-
 
 for example: 
     # which contaions my three dogs
@@ -64,16 +61,14 @@ puts my_dogs["chihuahua"] # => "napolian"
 
 ```
 
-
-
 ## Looking Ahead: Terms for Next Week
 
-1. RSpec:
+1. RSpec: Request specification is a domaine specific language that is or a unit test framework used to describe the behavior of objects in the Ruby programming language. RSpec is used to create specifications that will discribe the desired output.
 
-2. Test-driven development:
+2. Test-driven development: Is when an approach where developers write the test to specify what the code will do, before write the actual code; just like in Yarn Jest. A test is create and will initally fail because the correspoding code has not yet been define. Then the code is writen to make the test pass. Then, if possible refactor the corresponding code. In other words, Red, Green, Refactor, and repeat. 
 
-3. PostgreSQL:
+3. PostgreSQL: Is an open source object-relational database management system. PostgreSQL takes in databases through the lenses of an object-oriented programming language. It is known for its flexibility and scalablity. Originally developed in UC Berkely in 1980. PostgreSQL is commonly used as a back-end database for web applicaitons, data warehousing, and business intelligence systems. A key advantage of PostgreSQL is its ablity to take in vast quantities of data and high traffic levels while maintaining high performance. 
 
-4. CRUD:
+4. CRUD: Create, Read, Update, and Delete. These the are the set of basic operations commonly used to manage data in database driven applications.
 
-5. HTTP:
+5. HTTP: Is a request and presponse protocal that stands for Hypertext Transfer Protocol. This is the protocol that governs communication between users and web servers. This is used to transfer information from web browser to web servers. 
